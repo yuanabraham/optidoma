@@ -8,7 +8,7 @@ let userID = '90cd4a77-141a-43c9-991b-08263cfe9c10';
 
 let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org, workers.cloudflare.cyou'
 
-let sub = 'sub.xmm404.workers.dev';// 避免项目被滥用，现已取消内置订阅器
+let sub = '';// 避免项目被滥用，现已取消内置订阅器
 let subconverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅。
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"; //订阅配置文件
 let subProtocol = 'https';
@@ -50,6 +50,14 @@ let addresses = [
 	'www.wto.org:8443',
 	'chatgpt.com:2087',
 	/'icook.hk',
+'speed.简书.cn:443',
+'cf.090227.xyz:443',
+'cfip.xxxxxxxx.tk:2096',
+'cdn.kaiche.tk:2096',
+'c.xf.free.hr:2087',
+'sp.rweek.top:443',
+'hk.rweek.top:2053',
+'cf.001315.XYZ:443',
 	'104.17.0.0#IPv4',
 	'[2606:4700::]#IPv6'
 	*/
@@ -73,7 +81,7 @@ let DLS = 8;
 let FileName = 'edgetunnel';
 let BotToken ='';
 let ChatID =''; 
-let proxyhosts = [www.visa.com.sg];//本地代理域名池
+let proxyhosts = [];//本地代理域名池
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
 let RproxyIP = 'false';
 export default {
